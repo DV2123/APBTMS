@@ -1,0 +1,144 @@
+html, body
+{
+    height: 100%;
+    overflow-y: hidden;
+    margin: 0px;
+    
+}
+
+#sideBar
+{
+    height: 100%;
+    background-color: #0A0C29;
+    width: 20%;
+}
+
+#logo
+{
+    width: 70%;
+    margin-top: 10%;
+}
+
+.links
+{
+    color: rgb(191, 191, 191);
+    text-decoration: none;
+    font-size: 20px;
+
+    padding: 10px 45px;
+    margin: 30px 40px;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.links:hover
+{
+    background-color: rgba(144, 188, 255, 0.8);
+    color: white;
+}
+
+#notif:hover
+{
+    background-color: rgba(144, 188, 255, 0.8);
+    color: white;
+}
+
+#notif
+{
+    padding:10px 50px;
+    font-size: 20px;
+    background-color: #0A0C29;
+    border: 0px;
+    color: rgb(191, 191, 191);
+    margin: 5px 50px;
+}
+
+li
+{
+    padding:10px 34px;
+}
+
+#map
+{
+    border: 1px solid black;
+    margin: 30px 0px 30px 30px;
+    width: 100%;
+}
+
+#busList
+{
+    margin: 30px 30px 30px 0;
+    border: 1px solid black;
+    width: 30%;
+}
+
+.buses
+{
+    background-color: #0A0C29;
+    color: white;
+    border: 0px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.buses:hover
+{
+    background-color: rgba(255, 255, 255, 0.6);
+    color:#0A0C29;
+}
+
+#busTable
+{
+    padding: 30px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.list-group-item
+{
+    width: 100%;
+    text-align: center;
+}
+
+.editBtn, .viewImgBtn
+{
+    background-color: #2c81ff;
+    font-size: 10px;
+    width: 70%;
+    color: white;
+}
+.editBtn:hover
+{
+    background-color: #134ba0;
+    color: white;   
+}
+
+.listHeading
+{
+    background-color: #0A0C29;
+    color: white;
+}
+
+.list-group-item
+{
+    padding: 10px;
+}
+.photoBtn
+{
+    background-color:#2c81ff;
+    color: white;
+}
+
+.photoBtn:hover
+{
+    background-color:#a4c8ff;
+    border: 1px solid black;
+
+}
+
+.adminNotif
+{
+    width: 350%;
+}
